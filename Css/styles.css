@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Outfit", sans-serif;
+  background-image: url("../images/bg-tablet-pattern.svg");
+  background-position-y: -190px;
+  background-position-x: 780px;
+  background-repeat: no-repeat;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main-body-section {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 6%;
+  height: 1440px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-bar li {
+  color: hsl(228, 39%, 23%);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-button {
+  margin-right: 60px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-top: 8px;
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  box-shadow: 5px 5px 5px 5px hsl(13, 100%, 96%);
+  border: none;
+  height: 45px;
+  width: 140px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 98%);
+}
+
+.top-top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.top-top-section h1 {
+  font-size: 54px;
+  font-weight: 700;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: hsl(228, 39%, 23%);
+}
+
+.top-top-section p {
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(227, 12%, 61%);
+  line-height: 1.8;
+}
+
+.top-top-right {
+  padding-top: 7.2%;
+  display: grid;
+}
+
+/* .top-top-left {
+  background-image: url("../images/bg-tablet-pattern.svg");
+} */
+
+.bottom-top-section {
+  display: flex;
+  gap: 15%;
+  margin-top: 80px;
+}
+
+.bottom-top-section h1 {
+  display: grid;
+  gap: 5px;
+  font-weight: 700;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: hsl(228, 39%, 23%);
+}
+
+.bottom-top-right {
+  display: grid;
+  gap: 25px;
+  height: 50px;
+}
+
+.bottom-top-right li {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.bottom-top-right button {
+  border-radius: 25px;
+  padding: 10px;
+  padding-top: 8px;
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  border: none;
+  height: 45px;
+  width: 70px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 98%);
+}
+
+.list-view p {
+  font-weight: 400;
+  font-size: 17px;
+  color: hsl(227, 12%, 61%);
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 1.8;
+  max-width: 71ch;
+}
+
+.list-view h3 {
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: hsl(228, 39%, 23%);
+}
+
+.list-view {
+  display: grid;
+  gap: 25px;
+}
+
+.bottom-top-left {
+  display: grid;
+  gap: 20px;
+  height: 20px;
+}
+
+.bottom-top-left p {
+  font-weight: 400;
+  font-size: 17px;
+  color: hsl(227, 12%, 61%);
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 1.8;
+  max-width: 70ch;
+}
+.bottom-top-right ul {
+  display: grid;
+  gap: 40px;
+}
+
+.opinion-section h1 {
+  display: grid;
+  gap: 5px;
+  font-weight: 700;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: hsl(228, 39%, 23%);
+}
+
+.opinion-section {
+  display: grid;
+  gap: 25px;
+  justify-content: center;
+}
+
+.profiles ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.profiles li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-image {
+  display: grid;
+  gap: 6px;
+  justify-content: center;
+}
+
+.sec-image img {
+  border-radius: 50%;
+  height: 50px;
+  align-items: center;
+}
+
+.img-div img {
+  justify-content: center;
+}
+
+.opinion-b {
+  list-style: none;
+  border-radius: 25px;
+  padding: 10px;
+  padding-top: 8px;
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  box-shadow: 5px 5px 5px 5px hsl(13, 100%, 96%);
+  border: none;
+  height: 45px;
+  width: 140px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(0, 0%, 98%);
+}
+
+.profiles {
+  display: flex;
+  gap: 12px;
+}
+.text h1 {
+  justify-content: center;
+}
