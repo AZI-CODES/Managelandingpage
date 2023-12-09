@@ -128,19 +128,28 @@ body {
 .bottom-top-right button {
   border-radius: 25px;
   padding: 10px;
-  padding-top: 8px;
+  padding-top: 7px;
   color: white;
   background-color: hsl(12, 88%, 59%);
   font-family: "Be Vietnam Pro", sans-serif;
 
   border: none;
-  height: 45px;
+  height: 30px;
   width: 70px;
   cursor: pointer;
   align-items: center;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   color: hsl(0, 0%, 98%);
+}
+.list-button {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.rist-button {
+  display: grid;
+  gap: 12px;
 }
 
 .list-view p {
@@ -160,8 +169,7 @@ body {
 }
 
 .list-view {
-  display: grid;
-  gap: 25px;
+  padding-left: 100px;
 }
 
 .bottom-top-left {
@@ -193,7 +201,7 @@ body {
 
 .opinion-section {
   display: grid;
-  gap: 25px;
+  gap: 35px;
   justify-content: center;
 }
 
@@ -389,7 +397,7 @@ input {
 @media screen and (max-width: 695px) {
   html,
   body {
-    width: 390px;
+    width: 100%;
     display: grid;
     font-family: "Be Vietnam Pro", sans-serif;
     font-family: "Outfit", sans-serif;
@@ -412,7 +420,10 @@ input {
 
   .main-body-section {
     padding-top: 5%;
-
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 0;
+    height: 1800px;
     justify-content: center;
   }
 
@@ -513,8 +524,7 @@ input {
   .bottom-top-section {
     display: grid;
     gap: 2px;
-    gap: 15%;
-    height: 150px;
+    height: 100px;
     text-align: center;
   }
 
@@ -540,7 +550,6 @@ input {
   }
 
   .bottom-top-right {
-    position: relative;
     display: grid;
     gap: 70px;
     margin-top: 300px;
@@ -549,7 +558,6 @@ input {
   }
 
   .bottom-top-right button {
-    border-radius: 25px;
     padding: 10px;
     padding-top: 8px;
     color: white;
@@ -557,8 +565,8 @@ input {
     font-family: "Be Vietnam Pro", sans-serif;
 
     border: none;
-    height: 45px;
-    width: 70px;
+    height: 705px;
+    width: 700px;
     cursor: pointer;
     align-items: center;
     font-weight: 400;
@@ -573,17 +581,7 @@ input {
     font-family: "Be Vietnam Pro", sans-serif;
     line-height: 1.8;
     max-width: 71ch;
-    left: 20px;
-    /* position: absolute;
-    left: 20px; */
-  }
-  .list-view {
-    position: absolute;
-    left: 30px;
-  }
-  .list-view p {
     text-align: start;
-    left: 20px;
   }
 
   .list-view h3 {
@@ -594,18 +592,37 @@ input {
   }
   .list-button {
     text-align: center;
-    display: inline;
-    font-size: 1px;
+    display: flex;
+    gap: 0;
+    /* background-color: ; */
+    font-size: 16px;
   }
+
+  .rist-button {
+    display: grid;
+    gap: 10px;
+  }
+  .rist-button h3 {
+    font-size: 20px;
+  }
+  .list-b {
+    height: 200px;
+  }
+  .col {
+    display: grid;
+    width: 100%;
+    height: 50px;
+    padding-left: 18px;
+    background-color: hsl(13, 100%, 96%);
+    text-align: left;
+    align-items: center;
+  }
+
   .list-button button {
     height: 30px;
     width: 50px;
   }
 
-  .list-view {
-    display: grid;
-    gap: 20px;
-  }
   .list-view p {
     text-align: center;
   }
@@ -624,10 +641,10 @@ input {
     line-height: 1.8;
     max-width: 70ch;
   }
-  .bottom-top-right ul {
+  /* .bottom-top-right ul {
     display: grid;
     gap: 40px;
-  }
+  } */
 
   .opinion-section h1 {
     display: grid;
@@ -642,7 +659,7 @@ input {
     display: grid;
     gap: 65px;
     justify-content: center;
-    margin-top: 420px;
+    margin-top: 100px;
   }
 
   .sec-image {
@@ -652,6 +669,7 @@ input {
     text-align: center;
     background-color: hsl(0, 0%, 98%);
     padding: 2.2rem;
+
     position: relative;
   }
 
