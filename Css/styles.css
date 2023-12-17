@@ -395,42 +395,15 @@ input {
 /* media query */
 
 @media screen and (max-width: 695px) {
-  html,
-  body {
-    width: 100%;
-    display: grid;
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-family: "Outfit", sans-serif;
-    /* background-image: url("../images/bg-tablet-pattern.svg"); */
-    /* background-position-y: -190px;
-    background-position-x: 780px;
-    background-repeat: no-repeat; */
-    background-color: white;
-  }
-
-  .attribution {
-    margin-top: 2px;
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-
   .main-body-section {
-    padding-top: 5%;
-    margin-top: 40px;
-    margin-left: 15px;
-    margin-right: 0;
+    padding-top: 1%;
+    padding: 10px;
+    margin: 0;
     height: 1800px;
-    justify-content: center;
   }
 
   .nav-bar {
     padding-top: 15px;
-    display: flex;
-    justify-content: space-between;
   }
   .nav-bar button {
     display: none;
@@ -438,38 +411,12 @@ input {
 
   .nav-bar ul {
     display: none;
-    gap: 25px;
-    list-style: none;
-    align-items: center;
   }
 
-  .nav-bar li {
-    color: hsl(228, 39%, 23%);
-    font-size: 14px;
-    font-weight: 400;
-  }
   .nav-bar img {
     height: 15px;
   }
 
-  .nav-button {
-    margin-right: 60px;
-    border-radius: 20px;
-    padding: 10px;
-    padding-top: 5px;
-    color: white;
-    background-color: hsl(12, 88%, 59%);
-    box-shadow: 5px 5px 5px 5px hsl(13, 100%, 96%);
-    border: none;
-    height: 25px;
-    width: 120px;
-    cursor: pointer;
-    align-items: center;
-    font-weight: 400;
-    font-size: 6px;
-    color: hsl(0, 0%, 98%);
-    font-family: "Be Vietnam Pro", sans-serif;
-  }
   .top-section {
     display: grid;
     text-align: center;
@@ -478,23 +425,18 @@ input {
   }
 
   .top-top-section {
-    display: grid;
-    position: relative;
-    margin-top: 10%;
+    display: flex;
+    gap: 2px;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 
-  .top-top-left {
-    position: absolute;
-    top: 5px;
-  }
-
-  .top-top-section img {
-    height: 100%;
-    width: 100%;
+  .top-top-left img {
+    height: 300px;
   }
 
   .top-top-section h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     font-family: "Be Vietnam Pro", sans-serif;
     color: hsl(228, 39%, 23%);
@@ -502,14 +444,12 @@ input {
 
   .top-top-section p {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     color: hsl(227, 12%, 61%);
-    line-height: 1.8;
     text-align: center;
   }
 
   .top-top-right {
-    padding-top: 100%;
     display: grid;
     gap: 12px;
     text-align: center;
@@ -594,7 +534,7 @@ input {
     text-align: center;
     display: flex;
     gap: 0;
-    /* background-color: ; */
+    background-color: hsl(13, 100%, 96%);
     font-size: 16px;
   }
 
@@ -611,20 +551,19 @@ input {
   .col {
     display: grid;
     width: 100%;
-    height: 50px;
-    padding-left: 18px;
-    background-color: hsl(13, 100%, 96%);
+    margin-right: 0;
+    padding-left: 8px;
     text-align: left;
     align-items: center;
   }
 
   .list-button button {
-    height: 30px;
-    width: 50px;
+    height: 50px;
+    width: 80px;
   }
 
-  .list-view p {
-    text-align: center;
+  .list-view {
+    padding: 0;
   }
 
   .bottom-top-left {
@@ -658,8 +597,12 @@ input {
   .opinion-section {
     display: grid;
     gap: 65px;
-    justify-content: center;
+    width: 100%;
+    place-items: center;
+    text-align: center;
     margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .sec-image {
@@ -732,10 +675,9 @@ input {
 
   .get-started {
     display: grid;
-    justify-content: space-between;
+
     height: 400px;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 100%;
     padding-top: 70px;
     margin-top: 60px;
     background-color: hsl(12, 88%, 59%);
@@ -769,9 +711,24 @@ input {
     height: 500px;
     background-color: hsl(233, 12%, 13%);
     color: white;
-    display: grid;
-    padding: 3em;
+    display: flex;
+
+    flex-direction: column;
   }
+
+  .footer div:first-child {
+    order: 3;
+  }
+  .footer div:second-child {
+    order: 2;
+  }
+  .footer div:third-child {
+    order: 2;
+  }
+  .footer div:first-child {
+    order: 1;
+  }
+
   .logo {
     display: grid;
     gap: 25px;
